@@ -73,7 +73,7 @@ $('.postres').on('click', function() {
 });
 //ZOOM DISH
 $(document).ready(function() {
-$('.dish-2, .dish-3').click(function() {
+$('.dish-2, .dish-3, .dish-half').click(function() {
   $(this).toggleClass('expandish');
     $(this).siblings(".show").toggle();
 	    $('.show').css('z-index', '11')
@@ -85,7 +85,7 @@ $('.dish-2, .dish-3').click(function() {
     return false;
 }); */
 
-$('.dish-2, .dish-3').mouseleave(function() {
+$('.dish-2, .dish-3, .dish-half').mouseleave(function() {
   $(this).removeClass('expandish');
 	    $('.show').css('z-index', '0');
 			    $('.show').css('display', 'none');
@@ -107,3 +107,31 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 }
+//ALERGENOS IDIOMAS
+$(document).ready(function() {
+
+var display = function(block_name) {
+  $('.LESa, .LUKa, .LFRa, .CATa').css('display', 'none');
+  $('#' + block_name).css('display', 'flex');
+  $('.' + block_name).css('display', 'flex');
+
+
+}
+
+$('.UK').on('click', function() {
+  display('LUKa', $(this));
+});
+
+$('.ES').on('click', function() {
+  display('LESa', $(this));
+});
+
+$('.CT').on('click', function() {
+  display('CATa', $(this));
+});
+
+
+$('.FR').on('click', function() {
+  display('LFRa', $(this));
+});
+});

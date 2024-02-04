@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+@charset "UTF-8";
+/* CSS Document */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,15 +17,24 @@ vertical-align: top;
 list-style:none;
 list-style-type: none;
 text-align:left;
+font:16px "Almendra", Serif;
 }
 :focus {
 	outline: 0;
 }
 
+b, strong {font-weight: bold;}
 
+input[type="checkbox"] {display:none;}
+
+.page-wrap .content-wrapper {background-color: transparent;}
+
+.page-wrap {
+    padding-top: 1rem;
+}
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/menucatalina/imagenes/fondo.jpg)}
+background:url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/fondo.jpg)}
  
 .wrapper {overflow-x:hidden; position: relative; padding: 0 3px;}
 
@@ -74,7 +85,7 @@ font-variant: normal;
 text-rendering: auto;
 -webkit-font-smoothing: antialiased;
 margin: 0 0.25rem;
-    width: 3rem;
+width: 3.5rem;
 }
 
 .FCBK:before {
@@ -99,18 +110,7 @@ margin: 0 0.25rem;
 	font-weight: 900;
 }
 
-/*BOTON TEXT ME*/
-.text-me {
-	display: block;
-	width: 3.75rem;
-	height: 3.75rem;
-	text-indent: -9999px;
-	position: absolute;
-	z-index: 999;
-	right: 1.25rem;
-	top: 1.8rem;
-	background: url(https://rawgit.com/akidaniel/darezd/gh-pages/imagenes/ICONOS/BT_TEXT.svg) no-repeat center 43%;
-}
+
 /*BOTON BACK TO TOP*/
 .back-to-top {
 	display: none;
@@ -121,7 +121,7 @@ margin: 0 0.25rem;
 	z-index: 1500;
 	right: 0.5rem;
 	bottom: 0rem;
-	background: url(https://akidaniel.github.io/menucatalina/imagenes/bt_top.png) no-repeat center 43%;
+	background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/bt_top.png) no-repeat center 43%;
 	background-size: contain;
 }
 
@@ -165,20 +165,18 @@ width:100%;}
  font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
-/**.menuitembeer {font-family: 'Almendra', serif; font-weight: bold; display:flex!important;
- font-size: 24px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; justify-content: center;}	
-.cartadevinos, .cartadepostres {display:none;}**/
 
 .ultimalinea {border:none}
 .menudevinos, .menudepostres {display:none}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2.5rem!important;}
 
 
-.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem;}
-.topimage img {float:left; margin: 0 0.5rem 0.5rem 0; }
+.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: 1px solid #BE9A91; padding: 0.5rem 0 0; margin-bottom: 1rem;
+}
+
+.topimage img {float:left; width: 200px;}
 
 .principal {
-background: ;
 flex: 1;
 font-family: 'Almendra', serif;
 font-size:18px;
@@ -196,31 +194,24 @@ color:#454545;
 .destacado {font-family: 'Almendra', serif;
 text-align:left;
 font-size:17px; font-weight: normal;}
-.descr {font-family: 'Gothic A1', sans-serif; font-weight: normal; color: #000000;
+.descr {font-family: 'Gothic A1', sans-serif; font-weight: normal;
 font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .tabla {padding: 8px 5px 4px;
-    margin: 0;}
-	
+    margin: 0; }
+.descr strong {font-family: 'Gothic A1', sans-serif; font-size: 14px;}
+.tabla strong {font-size: 14px;}
 .menuitem.plato {font-size:20px; border-bottom: none; line-height: 100%; padding:0;}
 .price {position: relative;
  font-family: 'Almendra', serif;
-
- font-size: 18px; /*width:fit-content;-moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    padding: 4px 10px;
-    background-color: #7B7E97;
-    font-weight: bold; bottom: 15px; color: white;
-    
+font-size: 18px; right:10%;
+}
    
-    left: 60%;
- display: block;
-    width: 50px; text-align: unset;*/right:10%;
-   }
-   
+.principal strong {font-size: 18px;}
 
-	
+.principal.descr strong {
+    font-size: 14px;
+	line-height: unset;}
 	
 .dishphoto {text-align:center!important}
 
@@ -295,10 +286,10 @@ background-size:contain;
 cursor: pointer;
 margin: 0 2rem;
 z-index:222;}
-.UK {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/uk.png);}
-.ES {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/spain.png);}
-.FR {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/france.png);}
-.CT {background-image: url(https://akidaniel.github.io/menucatalina/imagenes/catalan.png);}
+.UK {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/uk.png);}
+.ES {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/spain.png);}
+.FR {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/france.png);}
+.CT {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
 	width: 4.5rem;
@@ -308,9 +299,10 @@ z-index:222;}
 	z-index: 999;
 	cursor: pointer;
 }
-.platos {background: url(https://akidaniel.github.io/menucatalina/imagenes/menu_icon.png) no-repeat center 43%; background-size: contain;}
-.vinos {background: url(https://akidaniel.github.io/menucatalina/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
-.postres {background: url(https://akidaniel.github.io/menucatalina/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
+.platos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/menu_icon.png) no-repeat center 43%; background-size: contain;}
+.vinos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/wine_icon.png) no-repeat center 43%; background-size: contain;}
+.postres {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/dess_icon.png) no-repeat center 43%; background-size: contain;}
+
 
 .dish-2 div {text-align: right;}
 
@@ -358,6 +350,169 @@ padding-bottom: 1rem;
 .FINDUS {top:0;}
 a.FINDUS {text-decoration: none;}
 
+.page-wrap {background-color: none}
+.site-header {display:none}
+.site-footer { display: none; }
+.page .page-wrap .content-wrapper {padding:0;}
+.autor {margin: 1rem auto 5rem; color:#864138; display: flex; justify-content:center;}
+.autor a, .autor .descr {text-decoration:none; color:#864138; font-family: 'Gothic A1', sans-serif; font-size:14px; line-height: unset;}
+
+/**ALERGENOS**/
+.alergenos {display:none; justify-content: left;
+    width: 100%;
+    position: absolute; visibility:hidden}
+
+.expandish .alergenos {display:none; position: relative; visibility: visible; margin-bottom: -1rem;}
+
+.expandish .LESa {display:flex;}	
+.expandish .LUKa, .expandish .LFRa, .expandish .CATa {display:none;}
+
+.LESa label, .CATa label, .LUKa label, .LFRa label {font-family: 'Gothic A1', sans-serif;
+top: -10px;
+    position: absolute;
+    line-height: 0%; font-size:12px; text-align:center; color:#803a30; font-weight:bold; min-width: 4rem;}
+
+.gluten, .huevo, .pescado, .mostaza, .cacahuete, .crustaceo, .frutoseco, .apio, .sesamo, .sulfito, .altramuz, .lacteo, .molusco, .soja {
+border: 0.15rem solid #ffffff;
+border-radius: 1.5rem;
+color: #000000;
+margin: 0.5rem 0.4rem -2rem 0rem;
+width:2.5rem;
+height:2.5rem;
+font-family: 'Gothic A1', sans-serif;
+font-size: 15px; text-align: center;
+position: relative;
+line-height: 680%;
+display: flex;
+flex-direction: column;
+align-items: center;
+left:0;}
+.altramuz {background-color: #F7DF55;}
+.apio {background-color: #63BD55;}
+.gluten {background-color: #F2764A;}
+.huevo {background-color: #F59342;}
+.cacahuete {background-color: #C87C51;}
+.crustaceo {background-color: #43BCE8;}
+.frutoseco {background-color: #EE5D64;}
+.lacteo {background-color: #743E21;}
+.molusco {background-color: #5BC9D7;}
+.mostaza {background-color: #C59A40;}
+.pescado {background-color: #314F9F;}
+.sesamo {background-color: #A29677;}
+.sulfito {background-color: #871C58;}
+.soja {background-color:#23AD65;} 
+.alerglista {border: 0rem solid #ffffff;
+    border-radius: 1.5rem;
+    margin: 0.1rem 0.5rem 0 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;}
+.soja:before{ background: url(https://static.thenounproject.com/png/916439-200.png) no-repeat center 30%; background-size: 80%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+.sulfito:before{ background: url(https://static.thenounproject.com/png/1903088-200.png) no-repeat center 30%; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:2%;
+    }
+.mostaza:before{ background: url(https://img.icons8.com/ios-filled/2x/mustard.png) no-repeat center 30%; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+.frutoseco:before{ background: url(https://static.thenounproject.com/png/1048434-200.png) no-repeat 55% 45%; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+.lacteo:before{ background: url(https://static.thenounproject.com/png/1617386-200.png) no-repeat 55% 45%; background-size: 90%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+	
+.pescado:before{ background: url(https://img.icons8.com/ios-glyphs/2x/whole-fish.png) no-repeat 55% 45%; background-size: 80%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+.gluten:before{ background: url(https://static.thenounproject.com/png/2300996-200.png) no-repeat center; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%;
+   left:0;
+    }
+	
+.huevo:before{ background: url(https://img.icons8.com/ios-filled/2x/eggs.png) no-repeat 55% 45%; background-size: 70%;
+-webkit-filter: invert(100%);
+    position: absolute;
+    content: "";
+	color:#23AD65;
+   height:100%;
+   width:100%; left:0;
+    }
+
+/*PLATOS DESTACADOS A 1 COL*/
+.dish-half {display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center; 
+max-width: 550px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+margin: 0 auto;
+-moz-box-shadow: #223139 0 0 5px;
+-webkit-box-shadow: #223139 0 0 5px;
+box-shadow: #223139 0 0 5px;
+text-align: center;
+margin: 20px 0 0 0;
+padding:20px 0;
+}
+	
+.dish-half img {width:120%;}	
+
+.dish-half div {flex: 0 0 50%;
+width: 100%;}
+
+.dish-half .price {text-align: center; right:0%;}	
+
+.dish-half .gluten, .dish-half .huevo, .dish-half .pescado, .dish-half .mostaza, .dish-half .cacahuete, .dish-half .crustaceo, .dish-half .frutoseco, .dish-half .apio, .dish-half .sesamo, .dish-half .sulfito, .dish-half .altramuz, .dish-half .lacteo, .dish-half .molusco, .dish-half .soja {
+margin: 0.5rem 6px -2rem!important;}
+
+.expandish :first-child {flex: 0 0 auto;}	
+
+.dish-half.expandish {max-width:93%; min-width:unset;}
+
+.dish-half.expandish img {width:100%;}
+.dish-half.expandish div:nth-child(3) {margin-right:20px;}
+.dish-half.expandish div {flex: 0 0 100%;}
+.dish-half ul li { list-style-type: disc;}
+.dish-half.expandish ul li {margin-left: 30px;}
+
 @media only screen and (max-width: 900px) {
 
 .menuitemcontainer { -moz-box-shadow: #223139 0 0 4px; -webkit-box-shadow: #223139 0 0 4px; box-shadow: #223139 0 0 4px; }
@@ -376,10 +531,6 @@ a.FINDUS {text-decoration: none;}
 /**FIN FONDO DE COLOR**/
 
 
-	
-/**.price {left:30%}
-.expandish .price {display: unset;}
-.pricex3 {left:unset; line-height: 140%;}**/
 
 .dish-3 .dishnumber {left:0;}
 
@@ -396,8 +547,11 @@ a.FINDUS {text-decoration: none;}
 	right:unset;
     }
 .FINDUS {top:0;}
+.topimage img {float:right; margin: 0 0 0.5rem 0.5rem;}	
 
-.topimage img {float: right; margin: 0 0 0.5rem 0.5rem.descr;}
+.dish-half {margin: 15px 12px 0;
+    padding: 10px;}
+	
 }
 
 @media only screen and (min-width:901px) {
@@ -415,16 +569,8 @@ display: block;
 .FCBK, .TWITTER, .GPLUS, .MAIL, .HOME, .BACK, .INSTA, .WHATS {
 margin: 0 0 16px;
 }
+.topimage img {margin: 0 0.5rem 0.5rem 0;}	
 
 }
 
 
-/**
-
-@media only screen and (max-width: 640px)  {
-body[yahoo] .ANCHO {width:440px!important; padding:0px;!important; }
-body[yahoo] .CUADRO {width:220px!important; padding:0px;!important; }
-}
-@media only screen and (max-width: 540px) {
-body[yahoo] .ANCHO {width:300px!important; padding:0;}
-body[yahoo] .CUADRO {width:140px!important; padding:0px;}
