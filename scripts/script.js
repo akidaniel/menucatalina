@@ -77,10 +77,11 @@ $('.tienda').on('click', function() {
 });
 //ZOOM DISH
 $(document).ready(function() {
-$('.dish-2, .dish-3').click(function() {
+$('.dish-2, .dish-3, .dish-half').click(function() {
   $(this).toggleClass('expandish');
     $(this).siblings(".show").toggle();
 	    $('.show').css('z-index', '11')
+
 
 });
 
@@ -88,7 +89,7 @@ $('.dish-2, .dish-3').click(function() {
     return false;
 }); */
 
-$('.dish-2, .dish-3').mouseleave(function() {
+$('.dish-2, .dish-3, .dish-half').mouseleave(function() {
   $(this).removeClass('expandish');
 	    $('.show').css('z-index', '0');
 			    $('.show').css('display', 'none');
