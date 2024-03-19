@@ -306,7 +306,7 @@ z-index:222;}
 .platos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/menu_icon.png) no-repeat center 43%; background-size: contain;}
 .vinos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/wine_icon.png) no-repeat center 43%; background-size: contain;}
 .postres {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/dess_icon.png) no-repeat center 43%; background-size: contain;}
-.tienda {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/menu_icon.png) no-repeat center 43%; background-size: contain;}
+.tienda {background: url() no-repeat center 43%; background-size: contain;}
 
 
 .dish-2 div {text-align: right;}
