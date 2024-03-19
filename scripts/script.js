@@ -70,6 +70,10 @@ $('.postres').on('click', function() {
   display('menudepostres', $(this));
 });
 
+$('.tienda').on('click', function() {
+  display('carniceria', $(this));
+});
+
 });
 //ZOOM DISH
 $(document).ready(function() {
@@ -133,13 +137,3 @@ $('.FR').on('click', function() {
   display('LFRa', $(this));
 });
 });
-
-
-
-
-
-
-
-
-
-

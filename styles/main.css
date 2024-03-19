@@ -97,7 +97,7 @@ text-decoration: none!important;
 }
 
 .TWITTER:before {
-    content: "\f099";
+    content: "\e61b";
     padding: 0 9px;
 }
 
@@ -296,17 +296,17 @@ z-index:222;}
 .FR {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/france.png);}
 .CT {background-image: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/catalan.png);}
 
-.platos, .vinos, .postres {display: block;
+.platos, .vinos, .postres, .tienda {display: block;
 	width: 4.5rem;
 	height: 4.5rem;
 	text-indent: -9999px;
-	/**position: fixed;**/
 	z-index: 999;
 	cursor: pointer;
 }
 .platos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/menu_icon.png) no-repeat center 43%; background-size: contain;}
 .vinos {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/wine_icon.png) no-repeat center 43%; background-size: contain;}
 .postres {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/dess_icon.png) no-repeat center 43%; background-size: contain;}
+.tienda {background: url(http://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/menu_icon.png) no-repeat center 43%; background-size: contain;}
 
 
 .dish-2 div {text-align: right;}
@@ -5931,7 +5931,7 @@ a.btn-link {
   content: "\f080";
 }
 .fas fa-twitter-square:before {font-family: 'Font Awesome 5 Brands'!important;
-  content: "\f081";
+  content: "\e61b";
 }
 .fas fa-facebook-square:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f082";
@@ -6001,7 +6001,7 @@ a.btn-link {
   content: "\f098";
 }
 .fas fa-twitter:before {font-family: 'Font Awesome 5 Brands'!important;
-  content: "\f099";
+  content: "\e61b";
 }
 .fas fa-facebook-f:before,
 .fas fa-facebook:before {font-family: 'Font Awesome 5 Brands'!important;
