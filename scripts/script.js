@@ -53,7 +53,7 @@ $('.FR').on('click', function() {
 $(document).ready(function() {
 
 var display = function(block_name) {
-  $('.menuitemcontainer, .menudevinos, .menudepostres').css('display', 'none');
+  $('.menuitemcontainer, .menudevinos, .menudepostres, .carniceria').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
 }
