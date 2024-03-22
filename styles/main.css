@@ -36,7 +36,7 @@ input[type="checkbox"] {display:none;}
 padding:0;
 background:url(https://qr.catalinaparrilla.cat/wp-content/uploads/2020/07/fondo.jpg)}
 
-.wrapper {overflow-x:hidden; position: relative; padding: 0 3px;}
+.wrapper {overflow-x:hidden; position: relative; padding: 15px;}
 
 .CENTER {
   -ms-flex-pack: center;
