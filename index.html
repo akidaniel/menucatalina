@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name = "format-detection" content = "telephone=no" />
+<meta name = "format-detection" content = "date=no" />
+<meta name = "format-detection" content = "address=no" />
+<meta name="viewport" content="width=device-width, initial scale=1.0"/>
+<meta charset="utf-8" />
+<meta property="og:title" content="Menú Parrilla Catalina" />
+<meta property="og:url" content="https://catalinaparrilla.netlify.app/" />
+<meta property="og:image" content="https://catalinaparrilla.netlify.app/imagenes/catalina_logo.png"/>
+<meta property="og:description" content="Menú Parrilla Argentina Catalina: especialidades en carnes, pastas, ensaladas y deliciosos postres caseros en un ambiente agradable" />
+
+
+<LINK REL="SHORTCUT ICON" HREF="https://catalinaparrilla.netlify.app/imagenes/favicons/favicon.ico">
+<link rel="icon" href="https://catalinaparrilla.netlify.app/imagenes/favicons/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="styles/main.css"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&family=Gothic+A1:wght@400;900&display=swap" rel="stylesheet">
+<title>Menú Catalina Parrilla</title>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+
+
+<style>
+@media only screen and (min-width: 901px) {
+}
+</style>
+
+</head >
+<body class="pagina" style="overflow:visible" yahoo="fix">
+
+
 <!-- wp:html -->
 <div class="wrapper">
 <div class="SOCIAL">
@@ -3187,3 +3223,28 @@ Tous nos plats sont préparés à l'instant. Détendez-vous et profitez du mome
 
 </div>
 <!-- /wp:html -->
+
+
+
+<script type="text/javascript">
+jQuery('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+var amountScrolled = 300;
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+
+$('a.back-to-top, a.simple-back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
+
+
+</body>
+</html>
